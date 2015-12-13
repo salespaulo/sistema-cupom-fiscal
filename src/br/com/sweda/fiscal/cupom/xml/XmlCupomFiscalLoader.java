@@ -9,7 +9,7 @@ public class XmlCupomFiscalTransformer {
     }
 
     public CupomFiscal getCupomFiscal() {
-
+        return null;
     }
 
 }
