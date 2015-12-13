@@ -1,0 +1,43 @@
+object Form1: TForm1
+  Left = 247
+  Height = 140
+  Top = 158
+  Width = 327
+  Caption = 'SAT'
+  ClientHeight = 140
+  ClientWidth = 327
+  LCLVersion = '1.2.6.0'
+  object Button1: TButton
+    Left = 32
+    Height = 25
+    Top = 16
+    Width = 128
+    Caption = 'Status SAT'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object btnVenda: TButton
+    Left = 32
+    Height = 25
+    Top = 80
+    Width = 128
+    Caption = 'Venda XML'
+    OnClick = btnVendaClick
+    TabOrder = 1
+  end
+  object txtCod: TEdit
+    Left = 160
+    Height = 27
+    Top = 112
+    Width = 160
+    TabOrder = 2
+  end
+  object Label1: TLabel
+    Left = 208
+    Height = 17
+    Top = 80
+    Width = 90
+    Caption = 'Cod.Ativacao'
+    ParentColor = False
+  end
+end

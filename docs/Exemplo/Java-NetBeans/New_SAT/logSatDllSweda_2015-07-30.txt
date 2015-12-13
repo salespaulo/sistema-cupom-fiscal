@@ -1,0 +1,21 @@
+[ERROR]	2015-07-30 08:41:02: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:42:33: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:42:51: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:43:43: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:47:19: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:47:26: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:47:26: file src\EtherWin32.cpp, function client_receive, line 785: client Recv error
+
+[ERROR]	2015-07-30 08:47:26: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:49:00: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:50:30: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:51:01: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:51:01: file src\EtherWin32.cpp, function client_receive, line 785: client Recv error
+
+[ERROR]	2015-07-30 08:51:01: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:53:55: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 08:54:34: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 09:07:45: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-07-30 09:07:45: file src\EtherWin32.cpp, function client_receive, line 785: client Recv error
+
+[ERROR]	2015-07-30 09:07:45: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect

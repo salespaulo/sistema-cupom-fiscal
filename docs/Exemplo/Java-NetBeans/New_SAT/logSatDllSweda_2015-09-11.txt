@@ -1,0 +1,21 @@
+[ERROR]	2015-09-11 11:30:09: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:31:05: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:32:34: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:42:58: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:43:02: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:45:09: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:48:39: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:48:45: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:49:03: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:57:35: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:57:41: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:57:41: file src\EtherWin32.cpp, function client_receive, line 785: client Recv error
+
+[ERROR]	2015-09-11 11:57:41: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:58:03: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:59:04: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:59:04: file src\EtherWin32.cpp, function client_receive, line 785: client Recv error
+
+[ERROR]	2015-09-11 11:59:04: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 11:59:29: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect
+[ERROR]	2015-09-11 12:32:44: file src\EtherWin32.cpp, function client_connect, line 218: Could not connect

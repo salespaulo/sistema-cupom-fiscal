@@ -1,0 +1,66 @@
+[DEBUG]	2015-02-04 10:22:58: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-02-04 10:22:58: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-02-04 10:22:58: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:22:58: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:22:58: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:22:58: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 13 ms
+[DEBUG]	2015-02-04 10:22:58: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:24:24: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:24:24: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:24:24: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:24:24: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 22 ms
+[DEBUG]	2015-02-04 10:24:24: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:24:30: file src\EtherWin32.cpp, function finalizaWs, line 862: Finalizando DLL
+[DEBUG]	2015-02-04 10:24:30: file src\SATDLL.cpp, function DllMain, line 341: ================ FINALIZANDO DLL ================
+[DEBUG]	2015-02-04 10:24:55: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-02-04 10:24:55: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-02-04 10:24:55: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:24:55: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:24:55: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:24:55: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 4 ms
+[DEBUG]	2015-02-04 10:24:55: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[ERROR]	2015-02-04 10:24:56: file src\EtherWin32.cpp, function client_receive, line 785: client Recv error
+
+[DEBUG]	2015-02-04 10:24:56: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:24:56: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:24:56: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:24:56: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 11 ms
+[DEBUG]	2015-02-04 10:24:56: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:42:37: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-02-04 10:42:37: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-02-04 10:42:37: file src\SATDLL.cpp, function ConsultarSAT, line 1695: Chmando SendAndReceiveRetry
+[DEBUG]	2015-02-04 10:42:37: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:42:37: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:42:37: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:42:37: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 5 ms
+[DEBUG]	2015-02-04 10:42:37: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:42:41: file src\EtherWin32.cpp, function finalizaWs, line 862: Finalizando DLL
+[DEBUG]	2015-02-04 10:42:41: file src\SATDLL.cpp, function DllMain, line 341: ================ FINALIZANDO DLL ================
+[DEBUG]	2015-02-04 10:42:48: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-02-04 10:42:48: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-02-04 10:42:48: file src\SATDLL.cpp, function ConsultarSAT, line 1695: Chmando SendAndReceiveRetry
+[DEBUG]	2015-02-04 10:42:48: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:42:48: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:42:48: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:42:48: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 14 ms
+[DEBUG]	2015-02-04 10:42:48: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:43:36: file src\EtherWin32.cpp, function finalizaWs, line 862: Finalizando DLL
+[DEBUG]	2015-02-04 10:43:36: file src\SATDLL.cpp, function DllMain, line 341: ================ FINALIZANDO DLL ================
+[DEBUG]	2015-02-04 10:48:59: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-02-04 10:48:59: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-02-04 10:48:59: file src\SATDLL.cpp, function ExtrairLogs, line 2404: Chmando SendAndReceive
+[DEBUG]	2015-02-04 10:48:59: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:48:59: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:48:59: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:48:59: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 15 ms
+[DEBUG]	2015-02-04 10:48:59: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:49:59: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-02-04 10:49:59: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-02-04 10:49:59: file src\SATDLL.cpp, function ExtrairLogs, line 2404: Chmando SendAndReceive
+[DEBUG]	2015-02-04 10:49:59: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-02-04 10:49:59: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-02-04 10:49:59: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-02-04 10:49:59: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 14 ms
+[DEBUG]	2015-02-04 10:49:59: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-02-04 10:50:04: file src\EtherWin32.cpp, function finalizaWs, line 862: Finalizando DLL
+[DEBUG]	2015-02-04 10:50:04: file src\SATDLL.cpp, function DllMain, line 341: ================ FINALIZANDO DLL ================

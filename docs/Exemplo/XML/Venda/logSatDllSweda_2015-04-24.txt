@@ -1,0 +1,8 @@
+[DEBUG]	2015-04-24 17:10:29: file src\SATDLL.cpp, function TesteFimAFim, line 1930: Chamando SendAndReceive
+[DEBUG]	2015-04-24 17:10:29: file src\EtherWin32.cpp, function client_connect, line 68: trying to open a stream socket
+[DEBUG]	2015-04-24 17:10:29: file src\EtherWin32.cpp, function client_connect, line 85: gathering addresses information
+[DEBUG]	2015-04-24 17:10:29: file src\EtherWin32.cpp, function client_connect, line 211: finish conection tries
+[DEBUG]	2015-04-24 17:10:29: file src\EtherWin32.cpp, function client_connect, line 224: Tempo em socket e connect: 30 ms
+[DEBUG]	2015-04-24 17:10:29: file src\EtherWin32.cpp, function client_connect, line 226: freeing addresses information
+[DEBUG]	2015-04-24 17:12:05: file src\EtherWin32.cpp, function finalizaWs, line 862: Finalizando DLL
+[DEBUG]	2015-04-24 17:12:05: file src\SATDLL.cpp, function DllMain, line 341: ================ FINALIZANDO DLL ================

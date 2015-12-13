@@ -1,0 +1,145 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="CFe">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="infCFe">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ide">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:long" name="CNPJ"/>
+                                        <xs:element type="xs:string" name="signAC"/>
+                                        <xs:element type="xs:short" name="numeroCaixa"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="emit">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:long" name="CNPJ"/>
+                                        <xs:element type="xs:long" name="IE"/>
+                                        <xs:element type="xs:int" name="IM"/>
+                                        <xs:element type="xs:byte" name="cRegTribISSQN"/>
+                                        <xs:element type="xs:string" name="indRatISSQN"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="dest">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:long" name="CNPJ"/>
+                                        <xs:element type="xs:string" name="xNome"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="entrega">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="xLgr"/>
+                                        <xs:element type="xs:short" name="nro"/>
+                                        <xs:element type="xs:string" name="xCpl"/>
+                                        <xs:element type="xs:string" name="xBairro"/>
+                                        <xs:element type="xs:string" name="xMun"/>
+                                        <xs:element type="xs:string" name="UF"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="det" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="prod">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:long" name="cProd"/>
+                                                    <xs:element type="xs:string" name="xProd"/>
+                                                    <xs:element type="xs:int" name="NCM"/>
+                                                    <xs:element type="xs:short" name="CFOP"/>
+                                                    <xs:element type="xs:string" name="uCom"/>
+                                                    <xs:element type="xs:float" name="qCom"/>
+                                                    <xs:element type="xs:float" name="vUnCom"/>
+                                                    <xs:element type="xs:string" name="indRegra"/>
+                                                    <xs:element type="xs:float" name="vDesc"/>
+                                                    <xs:element type="xs:float" name="vOutro"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="imposto">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ICMS">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="ICMS00">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:byte" name="Orig"/>
+                                                                            <xs:element type="xs:byte" name="CST"/>
+                                                                            <xs:element type="xs:float" name="pICMS"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="PIS">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="PISAliq">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:byte" name="CST"/>
+                                                                            <xs:element type="xs:float" name="vBC"/>
+                                                                            <xs:element type="xs:float" name="pPIS"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="COFINS">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="COFINSOutr">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element type="xs:byte" name="CST"/>
+                                                                            <xs:element type="xs:float" name="vBC"/>
+                                                                            <xs:element type="xs:float" name="pCOFINS"/>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:byte" name="nItem" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="total"/>
+                            <xs:element name="pgto">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="MP">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:byte" name="cMP"/>
+                                                    <xs:element type="xs:float" name="vMP"/>
+                                                    <xs:element type="xs:byte" name="cAdmC"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:float" name="versaoDadosEnt"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

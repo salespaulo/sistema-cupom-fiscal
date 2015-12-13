@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tipoInter>ETHE</tipoInter>
+    <SSID> </SSID>
+    <seg> </seg>
+    <codigo> </codigo>
+    <tipoLan>IPFIX</tipoLan>
+    <lanIP>192.168.150.249</lanIP>
+    <lanMask>255.255.255.0</lanMask>
+    <lanGW>192.168.150.254</lanGW>
+    <lanDNS1>192.168.150.247</lanDNS1>
+    <lanDNS2>192.168.150.247</lanDNS2>
+    <usuario> </usuario>
+    <senha> </senha>
+    <proxy>0</proxy >
+    <proxy_ip>1.1.1.1</proxy_ip>
+    <proxy_porta> </proxy_porta>
+    <proxy_user> </proxy_user>
+    <proxy_senha> </proxy_senha>
+</config>

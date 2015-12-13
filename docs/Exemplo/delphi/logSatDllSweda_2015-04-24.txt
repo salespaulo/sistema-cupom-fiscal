@@ -1,0 +1,6 @@
+[DEBUG]	2015-04-24 08:27:41: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-04-24 08:27:41: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-04-24 08:40:21: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-04-24 08:40:21: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS
+[DEBUG]	2015-04-24 17:10:01: file src\SATDLL.cpp, function DllMain, line 323: ================ INICIANDO DLL ================
+[DEBUG]	2015-04-24 17:10:01: file src\EtherWin32.cpp, function iniciaWS, line 845: iniciaWS

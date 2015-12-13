@@ -1,0 +1,6 @@
+[DEBUG]	2015-03-31 13:37:27: file src/SATDLL.cpp, function ConsultarSAT, line 1614: Chmando SendAndReceiveRetry
+[DEBUG]	2015-03-31 13:39:34: file src/EtherLinux.cpp, function client_connect, line 92: Connection not detected!
+[DEBUG]	2015-03-31 13:39:34: file src/EtherLinux.cpp, function client_connect, line 183: <clientConnect>Connect  error: 9 ip: 172.16.0.3
+[DEBUG]	2015-03-31 13:56:24: file src/SATDLL.cpp, function ConsultarSAT, line 1614: Chmando SendAndReceiveRetry
+[DEBUG]	2015-03-31 13:58:31: file src/EtherLinux.cpp, function client_connect, line 92: Connection not detected!
+[DEBUG]	2015-03-31 13:58:31: file src/EtherLinux.cpp, function client_connect, line 183: <clientConnect>Connect  error: 9 ip: 172.16.0.3

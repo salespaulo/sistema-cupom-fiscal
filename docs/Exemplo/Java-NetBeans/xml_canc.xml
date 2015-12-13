@@ -1,0 +1,14 @@
+<CFeCanc> 
+<infCFe chCanc="NESTE CAMPO INSERIR A CHAVE CF-E">
+<ide> <CNPJ>16716114000172</CNPJ>
+<signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+<numeroCaixa>001</numeroCaixa> 
+</ide> 
+<emit />
+<dest>
+<CNPJ>53485215000106</CNPJ>
+</dest>
+<total />
+<infAdic />
+</infCFe>
+</CFeCanc>

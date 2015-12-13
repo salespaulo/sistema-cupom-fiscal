@@ -1,0 +1,9 @@
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\bin\Debug\Exemplo_SAT.exe
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\bin\Debug\Exemplo_SAT.pdb
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\Exemplo_SAT.Form1.resources
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\Exemplo_SAT.Properties.Resources.resources
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\Exemplo_SAT.exe
+c:\documents and settings\wfelix\meus documentos\visual studio 2010\Projects\Exemplo_SAT\Exemplo_SAT\obj\x86\Debug\Exemplo_SAT.pdb
