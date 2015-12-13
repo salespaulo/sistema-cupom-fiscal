@@ -1,7 +1,7 @@
-package br.com.sweda.fiscal.cupom.integration.xml;
+package br.com.sweda.sistema.cupom.fiscal.integration.xml;
 
-import br.com.sweda.fiscal.cupom.model.CupomFiscal;
-import br.com.sweda.fiscal.cupom.model.repository.CupomFiscalRepository;
+import br.com.sweda.sistema.cupom.fiscal.model.CupomFiscal;
+import br.com.sweda.sistema.cupom.fiscal.model.repository.CupomFiscalRepository;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import java.io.Serializable;

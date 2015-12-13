@@ -1,4 +1,4 @@
-package br.com.sweda.fiscal.cupom.impressao;
+package br.com.sweda.sistema.cupom.fiscal.impressao;
 
 public class ImpressaoApp {
 

@@ -1,4 +1,4 @@
-package br.com.sweda.fiscal.cupom.model.repository;
+package br.com.sweda.sistema.cupom.fiscal.model.repository;
 
 import java.io.Serializable;
 import java.util.List;
