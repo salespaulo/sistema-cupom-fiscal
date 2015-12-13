@@ -9,6 +9,38 @@
 	<packaging>jar</packaging>
 
 	<name>Sistema Cupom Fiscal: ${project.artifactId}</name>
+	<url>http://www.sweda.com.br/sistema-cupom-fiscal</url>
+	<inceptionYear>2015</inceptionYear>
+
+	<organization>
+		<name>Sweda</name>
+		<url>http://sweda.com.br/</url>
+	</organization>
+	
+	<properties>
+		<!-- Vers&otilde;es do plugin -->
+		<version.compiler.plugin>2.1</version.compiler.plugin>
+		<version.surefire.plugin>2.4.3</version.surefire.plugin>
+		<version.javadoc.plugin>2.6.1</version.javadoc.plugin>
+		<version.versions.plugin>1.2</version.versions.plugin>
+		<version.resources.plugin>2.4.3</version.resources.plugin>
+		<version.jar.plugin>2.4</version.jar.plugin>
+		<version.dependency.plugin>2.5.1</version.dependency.plugin>
+
+		<!-- Vers&otilde;es dos artefatos -->
+		<version.artifacts>0.0.1-beta</version.artifacts>
+
+		<!-- Formato que &eacute; mostrada a data e hora do &uacute;ltimo build -->
+		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
+
+		<!-- Nomes dos artefatos -->
+		<build.snapshot.final.name>${project.artifactId}_v${project.version}-build_${maven.build.timestamp}</build.snapshot.final.name>
+		<build.release.final.name>${project.artifactId}_v${project.version}</build.release.final.name>
+
+		<!-- Vers&atilde;o do java -->
+		<java.source.version>1.8</java.source.version>
+		<java.target.version>1.8</java.target.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -26,5 +58,76 @@
 			<artifactId>slf4j-log4j12</artifactId>
 		</dependency>
 	</dependencies>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${version.javadoc.plugin}</version>
+				<inherited>false</inherited>
+				<configuration>
+					<aggregate>true</aggregate>
+					<breakiterator>true</breakiterator>
+					<charset>UTF-8</charset>
+					<docencoding>UTF-8</docencoding>
+					<encoding>UTF-8</encoding>
+					<windowtitle>${project.name} ${project.version} API Documentation</windowtitle>
+					<doctitle>${project.name} ${project.version} API Documentation</doctitle>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>versions-maven-plugin</artifactId>
+				<version>${version.versions.plugin}</version>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>dependency-updates-report</report>
+							<report>plugin-updates-report</report>
+							<report>property-updates-report</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+		</plugins>
+	</reporting>
+
+	<build>
+		<finalName>${build.snapshot.final.name}</finalName>
+
+		<plugins>
+			<!-- Setando a vers&atilde;o do java para compila&ccedil;&atilde;o -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${version.compiler.plugin}</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<source>${java.source.version}</source>
+					<target>${java.target.version}</target>
+					<debug>true</debug>
+					<optimize>true</optimize>
+					<showDeprecations>true</showDeprecations>
+				</configuration>
+			</plugin>
+
+			<!-- Alterando o encoding do resources filtering para UTF-8 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${version.resources.plugin}</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+			<!-- Plugin de testes unit&aacute;rios -->
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${version.surefire.plugin}</version>
+			</plugin>
+		</plugins>
+	</build>
 
 </project>
