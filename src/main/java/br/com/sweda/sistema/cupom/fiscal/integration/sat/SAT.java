@@ -16,7 +16,5 @@ public interface SAT extends StdCallLibrary {
     public String ConsultarSAT(int numeroSessao);
     
     public String TesteFimAFim(int numerosessao, String codigoDeAtivacao, CupomFiscal cupomFiscalVenda);
-    
-    
 
 }
