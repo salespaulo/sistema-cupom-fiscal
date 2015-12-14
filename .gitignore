@@ -16,3 +16,4 @@ sistema-cupom-fiscal.iml
 hs_err_pid*
 
 target/
+/bin/
