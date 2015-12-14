@@ -22,7 +22,7 @@
 		<!-- Vers&otilde;es do plugin -->
 		<version.compiler.plugin>2.1</version.compiler.plugin>
 		<version.surefire.plugin>2.4.3</version.surefire.plugin>
-		<version.javadoc.plugin>2.6.1</version.javadoc.plugin>
+		<version.javadoc.plugin>2.9.1</version.javadoc.plugin>
 		<version.versions.plugin>1.2</version.versions.plugin>
 		<version.resources.plugin>2.4.3</version.resources.plugin>
 		<version.jar.plugin>2.4</version.jar.plugin>
@@ -117,5 +117,52 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<profiles>
+		<profile>
+			<id>test</id>
+
+			<activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+
+            <properties>
+                <!-- Nivel do log padrao -->
+                <log4j.logger.level>TRACE</log4j.logger.level>
+                <!-- Mostrar SQL nos logs -->
+                <hibernate.show_sql>true</hibernate.show_sql>
+            </properties>
+
+            <build>
+                <filters>
+                    <filter>src/main/resources/test.properties</filter>
+                </filters>
+            </build>
+        </profile>
+
+        <profile>
+            <id>prod</id>
+
+            <activation>
+                <property>
+					<name>env</name>
+					<value>prod</value>
+				</property>
+            </activation>
+
+            <properties>
+                <!-- Nivel do log padrao -->
+                <log4j.logger.level>INFO</log4j.logger.level>
+                <!-- Mostrar SQL nos logs -->
+                <hibernate.show_sql>false</hibernate.show_sql>
+            </properties>
+
+            <build>
+                <filters>
+                    <filter>src/main/resources/prod.properties</filter>
+                </filters>
+            </build>
+        </profile>
+	</profiles>
 
 </project>

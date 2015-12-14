@@ -1,8 +1,5 @@
 package br.com.sweda.sistema.cupom.fiscal.integration.xml.tags;
 
-/**
- * Created by salespaulo on 12/13/2015.
- */
 public class CFe {
 
     private InfCFe infCFe;
