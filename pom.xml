@@ -29,7 +29,7 @@
 		<version.dependency.plugin>2.5.1</version.dependency.plugin>
 
 		<!-- Vers&otilde;es dos artefatos -->
-		<version.artifacts>0.0.1-beta</version.artifacts>
+		<version.artifacts>1.0.0</version.artifacts>
 
 		<!-- Formato que &eacute; mostrada a data e hora do &uacute;ltimo build -->
 		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
@@ -195,6 +195,7 @@
             </properties>
 
             <build>
+                <finalName>${build.release.final.name}</finalName>
                 <filters>
                     <filter>src/main/resources/prod.properties</filter>
                 </filters>
