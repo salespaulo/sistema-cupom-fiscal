@@ -1,6 +1,7 @@
 package br.com.sweda.sistema.cupom.fiscal.integration.xml;
 
 import br.com.sweda.sistema.cupom.fiscal.integration.xml.tags.CFe;
+import br.com.sweda.sistema.cupom.fiscal.integration.xml.xstream.XStreamFactory;
 import br.com.sweda.sistema.cupom.fiscal.model.CupomFiscal;
 import br.com.sweda.sistema.cupom.fiscal.model.repository.CupomFiscalRepository;
 import br.com.sweda.sistema.cupom.fiscal.util.Utils;
