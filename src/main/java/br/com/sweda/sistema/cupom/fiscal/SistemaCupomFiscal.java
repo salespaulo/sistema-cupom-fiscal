@@ -25,6 +25,12 @@ public class SistemaCupomFiscal {
 
         cupomFiscal.setCodigoDeAtivacao("123123123");
 
+        System.out.println("[LOG] Consulta SAT: " + cupomFiscal.getNumeroSessao());
+
+        String consultarSAT = SAT.INSTANCE.ConsultarSAT(cupomFiscal.getNumeroSessao());
+
+        System.out.println("[LOG] Retorno do consulta SAT" +consultarSAT);
+
         System.out.println("[LOG] Enviando para o SAT: " + cupomFiscal.getCfe().toString());
 
         String xmlRetornoCupomFiscal = SAT.INSTANCE.EnviarDadosVenda(

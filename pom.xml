@@ -181,7 +181,7 @@
         </profile>
 
         <profile>
-            <id>prod</id>
+            <id>release</id>
 
             <activation>
 				<activeByDefault>false</activeByDefault>
