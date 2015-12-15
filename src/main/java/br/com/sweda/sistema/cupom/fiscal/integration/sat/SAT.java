@@ -7,7 +7,7 @@ import br.com.sweda.sistema.cupom.fiscal.model.CupomFiscal;
 
 public interface SAT extends StdCallLibrary {
 
-    SAT INSTANCE = (SAT) Native.loadLibrary("SAT.DLL", SAT.class);
+    SAT INSTANCE = (SAT) Native.loadLibrary("SAT", SAT.class);
     
     public String EnviarDadosVenda(int numerosessao, String codigoDeAtivacao, CupomFiscal cupomFiscalVenda);
     

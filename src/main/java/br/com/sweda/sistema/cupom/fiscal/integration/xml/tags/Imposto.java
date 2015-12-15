@@ -1,5 +1,8 @@
 package br.com.sweda.sistema.cupom.fiscal.integration.xml.tags;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+@XStreamAlias("imposto")
 public class Imposto
 {
     private PIS PIS;

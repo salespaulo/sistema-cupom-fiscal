@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CFe>
+	<infCFe Id="CFe35150253485215000106599000005190006585788090" versao="0.06" versaoDadosEnt="0.06" versaoSB="010001">
+		<ide>
+			<cUF>35</cUF>
+			<cNF>578809</cNF>
+			<mod>59</mod>
+			<nserieSAT>900000519</nserieSAT>
+			<nCFe>000658</nCFe>
+			<dEmi>20150212</dEmi>
+			<hEmi>112256</hEmi>
+			<cDV>0</cDV>
+			<tpAmb>2</tpAmb>
+			<CNPJ>10615281000140</CNPJ>
+			<signAC>SGR-SAT SISTEMA DE GESTAO E RETAGUARDA DO SAT</signAC>
+			<assinaturaQRCODE>gNsFwgBETpWKlulzHFH5CEe6UsgiOr3rWyZ5/tVPrP6nG+Ig/njoNc8qEdZpd7YMklfYDe0+/f4Uk51PQ9WfYpzcDgdhLeaS5wNM5VhG6/hTqds1HyoFUYy+/lGW3f8K22+DerycXrcUJ8GMbTJXZN9YcyZot3ZZkE3H2MeLCZKiBfVAoJWykp4On0X1Z2jDymUbwYn2SB+Uz0uINfXa4R8I3BN0gmKviuEJGgNgoAR1okHtfCIUP4nVntB1HgaWEtcSfUwqg5hojAc4u1NuzU87oU5HY7dv2U6vjicgsQAzFNPbBRZmxfkrvtj3HuhjC8CbC5qwMGD7d1XEHI0kmQ==</assinaturaQRCODE>
+			<numeroCaixa>233</numeroCaixa>
+		</ide>
+		<emit>
+			<CNPJ>53485215000106</CNPJ>
+			<xNome>SWEDA INFORMATICA LTDA</xNome>
+			<xFant>SWEDA INFORMATICA LTDA</xFant>
+			<enderEmit>
+				<xLgr>RUA DONA BRIGIDA</xLgr>
+				<nro>713</nro>
+				<xBairro>VILA MARIANA</xBairro>
+				<xMun>SAO PAULO</xMun>
+				<CEP>04111081</CEP>
+			</enderEmit>
+			<IE>111072115110</IE>
+			<IM>111111111</IM>
+			<cRegTrib>3</cRegTrib>
+			<cRegTribISSQN>3</cRegTribISSQN>
+			<indRatISSQN>S</indRatISSQN>
+		</emit>
+		<dest>
+			<CNPJ>53485215000106</CNPJ>
+			<xNome>Sweda Informatica Ltda.</xNome>
+		</dest>
+		<entrega>
+			<xLgr>Rua Dona Brigida</xLgr>
+			<nro>713</nro>
+			<xCpl>A</xCpl>
+			<xBairro>Vila Mariana</xBairro>
+			<xMun>SÃ£o Paulo</xMun>
+			<UF>SP</UF>
+		</entrega>
+		<det nItem="1">
+			<prod>
+				<cProd>7899264308112</cProd>
+				<xProd>Pao Forma Integral Light</xProd>
+				<NCM>85447030</NCM>
+				<CFOP>5401</CFOP>
+				<uCom>un</uCom>
+				<qCom>2.0000</qCom>
+				<vUnCom>0.900</vUnCom>
+				<vProd>000000000001.80</vProd>
+				<indRegra>T</indRegra>
+				<vDesc>0.00</vDesc>
+				<vOutro>0.00</vOutro>
+				<vItem>000000000001.80</vItem>
+			</prod>
+			<imposto>
+				<ICMS>
+					<ICMS00>
+						<Orig>0</Orig>
+						<CST>00</CST>
+						<pICMS>07.00</pICMS>
+						<vICMS>000000000000.13</vICMS>
+					</ICMS00>
+				</ICMS>
+				<PIS>
+					<PISAliq>
+						<CST>02</CST>
+						<vBC>000000000001.00</vBC>
+						<pPIS>0.0500</pPIS>
+						<vPIS>000000000000.05</vPIS>
+					</PISAliq>
+				</PIS>
+				<COFINS>
+					<COFINSOutr>
+						<CST>99</CST>
+						<vBC>1.00</vBC>
+						<pCOFINS>5.0000</pCOFINS>
+						<vCOFINS>000000000005.00</vCOFINS>
+					</COFINSOutr>
+				</COFINS>
+			</imposto>
+		</det>
+		<det nItem="2">
+			<prod>
+				<cProd>7899264308112</cProd>
+				<xProd>Pao Forma Integral Light</xProd>
+				<NCM>85447030</NCM>
+				<CFOP>5401</CFOP>
+				<uCom>un</uCom>
+				<qCom>2.0000</qCom>
+				<vUnCom>0.900</vUnCom>
+				<vProd>000000000001.80</vProd>
+				<indRegra>T</indRegra>
+				<vDesc>0.00</vDesc>
+				<vOutro>0.00</vOutro>
+				<vItem>000000000001.80</vItem>
+			</prod>
+			<imposto>
+				<ICMS>
+					<ICMS00>
+						<Orig>0</Orig>
+						<CST>00</CST>
+						<pICMS>07.00</pICMS>
+						<vICMS>000000000000.13</vICMS>
+					</ICMS00>
+				</ICMS>
+				<PIS>
+					<PISAliq>
+						<CST>02</CST>
+						<vBC>000000000001.00</vBC>
+						<pPIS>0.0500</pPIS>
+						<vPIS>000000000000.05</vPIS>
+					</PISAliq>
+				</PIS>
+				<COFINS>
+					<COFINSOutr>
+						<CST>99</CST>
+						<vBC>1.00</vBC>
+						<pCOFINS>5.0000</pCOFINS>
+						<vCOFINS>000000000005.00</vCOFINS>
+					</COFINSOutr>
+				</COFINS>
+			</imposto>
+		</det>
+		<det nItem="3">
+			<prod>
+				<cProd>7899264308112</cProd>
+				<xProd>Pao Forma Integral Light</xProd>
+				<NCM>85447030</NCM>
+				<CFOP>5401</CFOP>
+				<uCom>un</uCom>
+				<qCom>2.0000</qCom>
+				<vUnCom>0.900</vUnCom>
+				<vProd>000000000001.80</vProd>
+				<indRegra>T</indRegra>
+				<vDesc>0.00</vDesc>
+				<vOutro>0.00</vOutro>
+				<vItem>000000000001.80</vItem>
+			</prod>
+			<imposto>
+				<ICMS>
+					<ICMS00>
+						<Orig>0</Orig>
+						<CST>00</CST>
+						<pICMS>07.00</pICMS>
+						<vICMS>000000000000.13</vICMS>
+					</ICMS00>
+				</ICMS>
+				<PIS>
+					<PISAliq>
+						<CST>02</CST>
+						<vBC>000000000001.00</vBC>
+						<pPIS>0.0500</pPIS>
+						<vPIS>000000000000.05</vPIS>
+					</PISAliq>
+				</PIS>
+				<COFINS>
+					<COFINSOutr>
+						<CST>99</CST>
+						<vBC>1.00</vBC>
+						<pCOFINS>5.0000</pCOFINS>
+						<vCOFINS>000000000005.00</vCOFINS>
+					</COFINSOutr>
+				</COFINS>
+			</imposto>
+		</det>
+		<det nItem="4">
+			<prod>
+				<cProd>7899264308112</cProd>
+				<xProd>Pao Forma Integral Light</xProd>
+				<NCM>85447030</NCM>
+				<CFOP>5401</CFOP>
+				<uCom>un</uCom>
+				<qCom>2.0000</qCom>
+				<vUnCom>0.900</vUnCom>
+				<vProd>000000000001.80</vProd>
+				<indRegra>T</indRegra>
+				<vDesc>0.00</vDesc>
+				<vOutro>0.00</vOutro>
+				<vItem>000000000001.80</vItem>
+			</prod>
+			<imposto>
+				<ICMS>
+					<ICMS00>
+						<Orig>0</Orig>
+						<CST>00</CST>
+						<pICMS>07.00</pICMS>
+						<vICMS>000000000000.13</vICMS>
+					</ICMS00>
+				</ICMS>
+				<PIS>
+					<PISAliq>
+						<CST>02</CST>
+						<vBC>000000000001.00</vBC>
+						<pPIS>0.0500</pPIS>
+						<vPIS>000000000000.05</vPIS>
+					</PISAliq>
+				</PIS>
+				<COFINS>
+					<COFINSOutr>
+						<CST>99</CST>
+						<vBC>1.00</vBC>
+						<pCOFINS>5.0000</pCOFINS>
+						<vCOFINS>000000000005.00</vCOFINS>
+					</COFINSOutr>
+				</COFINS>
+			</imposto>
+		</det>
+		<det nItem="5">
+			<prod>
+				<cProd>7899264308112</cProd>
+				<xProd>Pao Forma Integral Light</xProd>
+				<NCM>85447030</NCM>
+				<CFOP>5401</CFOP>
+				<uCom>un</uCom>
+				<qCom>2.0000</qCom>
+				<vUnCom>0.900</vUnCom>
+				<vProd>000000000001.80</vProd>
+				<indRegra>T</indRegra>
+				<vDesc>0.00</vDesc>
+				<vOutro>0.00</vOutro>
+				<vItem>000000000001.80</vItem>
+			</prod>
+			<imposto>
+				<ICMS>
+					<ICMS00>
+						<Orig>0</Orig>
+						<CST>00</CST>
+						<pICMS>07.00</pICMS>
+						<vICMS>000000000000.13</vICMS>
+					</ICMS00>
+				</ICMS>
+				<PIS>
+					<PISAliq>
+						<CST>02</CST>
+						<vBC>000000000001.00</vBC>
+						<pPIS>0.0500</pPIS>
+						<vPIS>000000000000.05</vPIS>
+					</PISAliq>
+				</PIS>
+				<COFINS>
+					<COFINSOutr>
+						<CST>99</CST>
+						<vBC>1.00</vBC>
+						<pCOFINS>5.0000</pCOFINS>
+						<vCOFINS>000000000005.00</vCOFINS>
+					</COFINSOutr>
+				</COFINS>
+			</imposto>
+		</det>
+		<total>
+			<ICMSTot>
+				<vICMS>000000000000.65</vICMS>
+				<vProd>000000000009.00</vProd>
+				<vDesc>000000000000.00</vDesc>
+				<vPIS>000000000000.25</vPIS>
+				<vCOFINS>000000000025.00</vCOFINS>
+				<vPISST>000000000000.00</vPISST>
+				<vCOFINSST>000000000000.00</vCOFINSST>
+				<vOutro>000000000000.00</vOutro>
+			</ICMSTot>
+			<vCFe>000000000009.00</vCFe>
+		</total>
+		<pgto>
+			<MP><cMP>01</cMP>
+				<vMP>9.00</vMP>
+				<cAdmC>025</cAdmC>
+			</MP>
+			<vTroco>000000000000.00</vTroco>
+		</pgto>
+	</infCFe>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<Reference URI="#CFe35150253485215000106599000005190006585788090">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<DigestValue>5mMoPeQtLkFU/HMjgb4m89yPuvvSeJcvPcK+F/WpNzs=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>F5a/SGi8b7LlhEd+lbRxa2jkLT2NmczOgA/dfRgVUzZMyGBByavwUNQhnH/Q7AJkEm0WPwGnNOoKCViYyaJjXx6xfSsMXq26Hg6g1ctcQlDK3Olu/NRqhhM9OgPrANL2RVuok4e6dW/dlFuqgT678BqZX+zFw44NUhP3znlTCLlJAYs14KC9fl8hAgyND6kQHUfQLC+mN5t14gmbDwtNnEX7UK8TMea9GBTBS4QNPxikuFtensZzkeGOq8aYoyjmilXK/ribG6Z/W4k5GECPKyARLXL7As0MWTa40NbjBrh4/HFItXtaFGUqqMYFZzzaZWK5mACdp8RuU9h/DiQVRQ==</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509Certificate>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</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</CFe>

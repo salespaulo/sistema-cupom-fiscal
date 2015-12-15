@@ -13,4 +13,9 @@ public class CupomFiscal {
     public void setCfe(CFe cfe) {
         this.cfe = cfe;
     }
+
+    @Override
+    public String toString() {
+        return cfe.toString();
+    }
 }

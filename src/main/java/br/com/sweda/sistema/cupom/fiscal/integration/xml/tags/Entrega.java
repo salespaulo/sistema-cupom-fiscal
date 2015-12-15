@@ -1,5 +1,8 @@
 package br.com.sweda.sistema.cupom.fiscal.integration.xml.tags;
 
+import com.thoughtworks.xstream.annotations.XStreamAlias;
+
+@XStreamAlias("Entrega")
 public class Entrega
 {
     private String xLgr;
