@@ -7,14 +7,14 @@ import br.com.sweda.sistema.cupom.fiscal.model.CupomFiscal;
 
 public interface SAT extends StdCallLibrary {
 
-    SAT INSTANCE = (SAT) Native.loadLibrary("SAT", SAT.class);
-    
-    public String EnviarDadosVenda(int numerosessao, String codigoDeAtivacao, CupomFiscal cupomFiscalVenda);
-    
-    public String CancelarUltimaVenda(int numerosessao, String codigoDeAtivacao, String chave, CupomFiscal cupomFiscalCancelamento);
-    
+    SAT INSTANCE = (SAT) Native.loadLibrary("D:\\\\salespaulo\\Sat\\Sat\\src\\main\\resources\\SATDLL", SAT.class);
+
+    public String EnviarDadosVenda(int numerosessao, String codigoDeAtivacao, String cupomFiscalVenda);
+
+    public String CancelarUltimaVenda(int numerosessao, String codigoDeAtivacao, String chave, String cupomFiscalCancelamento);
+
     public String ConsultarSAT(int numeroSessao);
-    
-    public String TesteFimAFim(int numerosessao, String codigoDeAtivacao, CupomFiscal cupomFiscalVenda);
+
+    public String TesteFimAFim(int numerosessao, String codigoDeAtivacao, String cupomFiscalVenda);
 
 }
