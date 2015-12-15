@@ -5,8 +5,12 @@ import com.sun.jna.win32.StdCallLibrary;
 
 public interface Si150 extends StdCallLibrary {
 
-    Si150 INSTANCE = (Si150) Native.loadLibrary("D:\\\\salespaulo\\Sat\\Sat\\src\\main\\resources\\SI300", Si150.class);
+    Si150 INSTANCE = (Si150) Native.loadLibrary("D:\\\\Sat\\src\\main\\resources\\SI300", Si150.class);
 
-    int SI300_iImprimirXML(String pszPath, String ptAutorizacao,String dhRecto, int tpCupom);
+    public int SI300_iImprimirXML(String pszPath, String ptAutorizacao,String dhRecto, int tpCupom);
+    
+    public int SI300_eBuscarPortaVelocidade();
+    
+    
 
 }

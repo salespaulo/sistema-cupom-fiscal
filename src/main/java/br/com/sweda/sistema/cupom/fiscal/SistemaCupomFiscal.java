@@ -15,7 +15,7 @@ public class SistemaCupomFiscal {
     }
 
     public void executarTodoProcesso() {
-        final String xml = "cupom_fiscal.xml";
+    	/*final String xml = "cupom_fiscal.xml";
 
         System.out.println("[LOG] Lendo do xml: " + xml);
 
@@ -23,18 +23,30 @@ public class SistemaCupomFiscal {
 
         System.out.println("[LOG] Cupom Fiscal carregado do XML: " + cupomFiscal.getCfe().toString());
 
-        cupomFiscal.setCodigoDeAtivacao("123123123");
+        cupomFiscal.setCodigoDeAtivacao("123123123");*/
+    	
+    	int numeroSessao = 111111;
 
-        System.out.println("[LOG] Consulta SAT: " + cupomFiscal.getNumeroSessao());
+        System.out.println("[LOG] Consulta SAT: " + numeroSessao);
 
-        String consultarSAT = SAT.INSTANCE.ConsultarSAT(cupomFiscal.getNumeroSessao());
+        String consultarSAT = SAT.INSTANCE.ConsultarSAT(numeroSessao);
 
         System.out.println("[LOG] Retorno do consulta SAT" +consultarSAT);
-
-        System.out.println("[LOG] Enviando para o SAT: " + cupomFiscal.getCfe().toString());
+        
+        String codigoDeAtivacao = "123123123";
+        
+        String consultaStatusOperacinal = SAT.INSTANCE.ConsultarStatusOperacional(numeroSessao, codigoDeAtivacao);
+        
+        System.out.println(consultaStatusOperacinal);
+        
+        int porta = Si150.INSTANCE.SI300_eBuscarPortaVelocidade();
+        
+        System.out.println(porta);
+        
+       /*System.out.println("[LOG] Enviando para o SAT: " + cupomFiscal.getCfe().toString());
 
         String xmlRetornoCupomFiscal = SAT.INSTANCE.EnviarDadosVenda(
-                cupomFiscal.getNumeroSessao(),
+                NumeroSessao,
                 cupomFiscal.getCodigoDeAtivacao(),
                 xmlService.cupomFiscalParaXML(cupomFiscal));
 
@@ -46,7 +58,9 @@ public class SistemaCupomFiscal {
 
         Si150.INSTANCE.SI300_iImprimirXML(xmlService.cupomFiscalParaXML(retornoCupomFiscal), null, null, 0);
 
-        System.out.println("[LOG] Enviado para a impressora com sucesso");
+        System.out.println("[LOG] Enviado para a impressora com sucesso");*/
+        
+        
     }
 
 }

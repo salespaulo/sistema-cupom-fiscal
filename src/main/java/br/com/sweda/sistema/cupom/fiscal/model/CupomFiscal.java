@@ -5,6 +5,10 @@ import br.com.sweda.sistema.cupom.fiscal.integration.xml.tags.CFe;
 public class CupomFiscal {
 
     private final Integer numeroSessao = Double.valueOf(Math.random() * Integer.MAX_VALUE).intValue();
+    
+    /*Random gerador = new Random();
+
+    private final Integer numeroSessao = gerador.nextInt();*/
 
     private String codigoDeAtivacao;
 
