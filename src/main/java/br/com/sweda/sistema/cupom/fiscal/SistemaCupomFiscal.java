@@ -23,7 +23,7 @@ public class SistemaCupomFiscal {
 
         System.out.println("[LOG] Cupom Fiscal carregado do XML: " + cupomFiscal.getCfe().toString());
 
-        cupomFiscal.setCodigoDeAtivacao("1111111111");
+        cupomFiscal.setCodigoDeAtivacao("123123123");
 
         System.out.println("[LOG] Enviando para o SAT: " + cupomFiscal.getCfe().toString());
 

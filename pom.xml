@@ -184,10 +184,7 @@
             <id>prod</id>
 
             <activation>
-                <property>
-					<name>env</name>
-					<value>prod</value>
-				</property>
+				<activeByDefault>false</activeByDefault>
             </activation>
 
             <properties>
