@@ -14,7 +14,7 @@ public class XMLService {
         super();
     }
 
-    public CupomFiscal cupomFiscalFromXML(String xml) {
+    public CupomFiscal cupomFiscalDeXML(String xml) {
         final CFe cfe = (CFe) xstream.fromXML(Utils.getInputStream(xml));
         final CupomFiscal cupomFiscal = new CupomFiscal();
 
@@ -23,7 +23,7 @@ public class XMLService {
         return cupomFiscal;
     }
 
-    public String cupomFiscalToXML(CupomFiscal cupomFiscal) {
+    public String cupomFiscalParaXML(CupomFiscal cupomFiscal) {
         return xstream.toXML(cupomFiscal.getCfe());
     }
 }

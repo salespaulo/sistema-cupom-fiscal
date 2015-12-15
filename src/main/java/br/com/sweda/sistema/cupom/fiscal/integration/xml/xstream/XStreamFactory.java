@@ -1,7 +1,7 @@
 package br.com.sweda.sistema.cupom.fiscal.integration.xml.xstream;
 
-import com.thoughtworks.xstream.XStream;
 import br.com.sweda.sistema.cupom.fiscal.integration.xml.tags.*;
+import com.thoughtworks.xstream.XStream;
 
 public class XStreamFactory {
 
@@ -45,7 +45,7 @@ public class XStreamFactory {
 	}
 
 	private static final XStream xstreamCupomFiscal = new XStreamCupomFiscal();
-	
+
 	public static XStream getCupomFiscalConfig() {
 		return xstreamCupomFiscal;
 	}
