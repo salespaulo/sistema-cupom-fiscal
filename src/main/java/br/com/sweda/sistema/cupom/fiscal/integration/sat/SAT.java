@@ -9,7 +9,6 @@ public interface SAT extends StdCallLibrary {
 
     SAT INSTANCE = (SAT) Native.loadLibrary("C:\\\\Program Files\\Sweda Informática Ltda\\Ativação SAT Sweda\\SATDLL", SAT.class);
     
-
     String EnviarDadosVenda(int numerosessao, String codigoDeAtivacao, String cupomFiscalVenda);
 
     String ConsultarSAT(int numeroSessao);

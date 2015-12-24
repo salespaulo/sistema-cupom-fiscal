@@ -27,7 +27,7 @@ public class SistemaCupomFiscal {
     	
     	int numeroSessao = 111111;
 
-        System.out.println("[LOG] Consulta SAT: " + numeroSessao);
+        /*System.out.println("[LOG] Consulta SAT: " + numeroSessao);
 
         String consultarSAT = SAT.INSTANCE.ConsultarSAT(numeroSessao);
 
@@ -37,9 +37,11 @@ public class SistemaCupomFiscal {
         
         String consultaStatusOperacinal = SAT.INSTANCE.ConsultarStatusOperacional(numeroSessao, codigoDeAtivacao);
         
-        System.out.println(consultaStatusOperacinal);
+        System.out.println(consultaStatusOperacinal);*/
         
-        int porta = Si150.INSTANCE.SI300_eBuscarPortaVelocidade();
+       int porta = Si150.INSTANCE.SI300_eBuscarPortaVelocidade();
+       
+       Si150.INSTANCE.SI300_iImprimirTexto("Feliz Natal!!!!!!!!", 300);
         
         System.out.println(porta);
         
